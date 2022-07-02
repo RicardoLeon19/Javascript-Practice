@@ -1,34 +1,28 @@
-//Inicializar una variable con un valor
-var producto = "Monitor de 24 Pulgadas";
-console.log(producto);
-
-//Las vairables se puede reasignar
-producto ='Monitor de 19 Pulgadas';
-console.log(producto);
-
-//Javascript es un lenguaje de tipo dinamico, no se especifica tipo de dato
-producto=20;
-console.log(producto);
+// Los strings o cadenas de texto representan un Texto que se puede asignar a una variable
+// existen 3 formas de crearlos que son más populares.
 
 
-//Se pueden inicializar sin valor y asignarlo despues
-var disponible;
-disponible = true;
+// Las otras 2 formas crean lo que se conoce como una cadena primitiva
+// const producto = 'Monitor 20 Pulgadas';
+// const producto2 = String('Monitor 24 Pulgadas');
 
-disponible = false;
 
-//Inicializar multiples variables
-var categoria = 'Computadoras',
-    marca = "Marca Famosa",
-    calificacion = 5;
+// // La siguiente forma es menos común
+// const producto3 = new String('Monitor 30 Pulgadas'); // Esto crea un objeto cadena
 
-//Las variables no pueden iniciar con numero
+// console.log(producto);
+// console.log(producto2);
+// console.log(producto3);
 
-var 99dias;
-var dias99;
+// Veamos algunas reglas para crear los strings:
+const producto = 'Monitor 20 Pulgadas'; // Utiliza comillas sencillas
+const producto2 = "Monitor 20 Pulgadas"; // Utiliza comillas o dobles
 
-var 01_;
-var_01;
+// pero nunca las mezcles
 
-var nombreProductoCategoriaPrecio;
-var nombre_producto_categoria_precio;
+// const producto3 = "Monitor 20 Pulgadas';
+
+// Ejemplo con Pulgadas
+const producto4 = "Monitor 24\"";
+
+console.log(producto4);
